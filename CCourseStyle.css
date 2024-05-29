@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: solid black 1px;
+    color: white;
+}
+
+html,body{
+    margin: inherit;
+    padding: inherit;
+    height: 100%;
+    width: 100%;
+}
+
+.coursesMain{
+    background-color: blue;
+    height: inherit;
+    width: inherit;
+}
+
+#Cnav{
+    width: 100%;
+    height: 12%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+
+    padding: 10px 20px; /* Adjust padding as needed */
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    z-index: 1000; 
+}   
+
+#CContain{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CCourseboxsContaner
+{
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: 20vw;
+
+}
+
+.Lectures{
+    width: auto;
+    height: 100%;
+}
+
+#LecturesBoxContner{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: pink solid 2px; */
+    display: grid;
+    grid-template-rows: repeat(4, 10vw);
+    grid-template-columns: repeat(4, 25vw);
+}
+
+
+
+.LBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    height: 7vw;
+    width: 13vw;
+    background-color: cadetblue;
+    border-radius: 2vw;
+    margin: 0.4vw;
+    margin-top: 1vw;
+    
+
+}
+
+.tempStyleForCboxes{
+    width: auto;
+    height: 100%;
+}
+
+.spaceTEmp {
+    width: 100%;
+    height: 12%;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Compiler{
+    height: 100%;
+    width: 100%;
+}
+
+.HelperIfram{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.practiceQuestionBox{
+    align-items: center;
+    justify-content: center;
+    height: 20vw;
+    width: 20vw;
+    border:  solid blue 2px;
+}
+
+.Practice{
+    height: 100%;
+    border: solid green 3px;
+    background-color: aqua;
+}
+
+.dataContaner{
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.dataBox{
+    width: 65vw;
+    height: 16vw;
+    border-radius: 3vw;
+}
+
+#logo{
+    position: absolute;
+    left: 2vw;
+    top: 1vw;
+    background-image: url("NDlogo.jpg");
+    height: 4vw;
+    width: 4vw;
+    border-radius: 0vw;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}

@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    /* border: solid black 1px; */
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+}
+
+body,html{
+    
+    /* background-image: url("HomePageImage.jpg") ; */
+    background-color:lightpink;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    
+  
+}
+
+#main
+{
+    height: 100%;
+    width: 100%;
+}
+
+#logo{
+    position: absolute;
+    left: 2vw;
+    top:1vw;
+    background-image: url("NDlogo.jpg");
+    height: 4vw;
+    width: 4vw;
+    border-radius: 0vw;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#container{
+    height: 88%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("backgroundrishiji1.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    ;
+}
+
+#aboutUser{
+    height: 4vw;
+    display: flex;
+    justify-content: space-evenly;
+    width: 13vw;
+    align-items: center;
+}
+
+.ulDontRemove{
+    list-style-type: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 12%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    align-items: center;
+    border: solid black 0.5vw;
+    background-image: url("navBackground.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+#ShowMenu{
+    
+    height: 25.4vw;
+    width: 32vw;
+    
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    border: black solid 0.3vw;
+    margin-left: 0.3vw;
+    
+}
+
+
+.displayNone{
+
+    display: none;;
+}
+
+
+#CoursesNextMenu{
+    display: none;
+}
+
+
+.icons{
+    margin: 1vw;
+}
+
+
+#menuButton{
+    height: 3vw;
+    display: flex;
+    justify-content: space-evenly;
+    width: 10vw;
+    align-items: center;
+}
+
+/* in build CSs */
+
+#homeContain{
+
+    background-image: url("thinking-childImage.jpg");
+    height: 25vw;
+    width: 25vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4vw;
+    margin: 2vw;
+}
+
+#HomeImage{
+    background-image: url("studyBoyImage.jpeg");
+    height: 25vw;
+    width: 25vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4vw;
+    margin: 2vw;
+   
+}
+
+.HomeImages{
+    height: 100%;
+    will-change: 100%;
+    display: flex;
+}
+
+
+.MenuBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+
+.menuList{
+    border: solid black 1px;
+    height: 5vw;
+    display: flex;
+    align-items: center;  
+}
+
+
+.menuList:hover {
+    background-color: white;
+    cursor: pointer;
+    border: solid 3px yellow;
+}
+
+.cancleButoon:hover{
+    height: 2vw;
+}
+
+
+
+.fontFamily{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 40;
+   
+  }
+  
+.cancleButoon{
+    
+    right: 2vw;
+
+}
+
+.innerMenuShowNotChange{
+    display: flex;
+    justify-content: start;
+}
+
+#CoursesMenu {
+    height: 25.4vw;
+    width: 32vw;
+    
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    border: black solid 0.3vw;
+    margin-left: 0.3vw;
+}
+
+.CCourseboxsContaner{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.couresesBox{
+    
+    height: 7vw;
+    width: 22vw;
+    margin: 2vw;
+    border: solid greenyellow 1px;
+    border-radius: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.button{
+    cursor: pointer;
+
+}
+.button:hover{
+    background-color: white;
+}
+
+a{
+    text-decoration:  'none';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/*help sytle  */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#helpButton {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#formContainer {
+   
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#formContainer form {
+    display: flex;
+    flex-direction: column;
+}
+
+#formContainer label {
+    margin-top: 10px;
+}
+
+#formContainer input,
+#formContainer textarea {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#formContainer button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#formContainer button:hover {
+    background-color: #218838;
+}
+
+
+
+
+.homimages{
+    
+    height: 30vw;
+    width: 77vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 12%;
+    top: 20%;;
+    border-radius: 5vw;
+}
